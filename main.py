@@ -7,7 +7,7 @@ import chainlit as cl
 
 @on_message
 async def on_message(msg):
-    runner = Runner()  # no arguments
+    runner = Runner()  
     result = await runner.run(
         starting_agent=CareerAgent,
         input=msg.content,
