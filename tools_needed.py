@@ -1,4 +1,4 @@
-from agents import function_tool
+from openai import function_tool
 from pydantic import BaseModel
 
 

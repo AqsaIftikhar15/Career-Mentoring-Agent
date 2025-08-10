@@ -1,7 +1,7 @@
 from configuration import config
 from agents_needed.career_agent import CareerAgent
 from chainlit import on_message , Message
-from agents import Runner
+from openai import Runner
 import os
 import chainlit as cl
 

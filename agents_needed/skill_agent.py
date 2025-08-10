@@ -1,4 +1,4 @@
-from agents import Agent, handoff
+from openai import Agent, handoff
 from configuration import model_ai
 from tools_needed import get_career_roadmap
 
